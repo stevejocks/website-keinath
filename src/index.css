@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&family=Playfair+Display+SC:wght@400;700&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #1E3A8A;
+  --color-brand-blue-light: #2563EB;
+  --color-brand-blue-dark: #172554;
+  --color-brand-yellow: #F59E0B;
+  --color-brand-yellow-light: #FCD34D;
+  --color-brand-yellow-dark: #B45309;
+  --font-heading: 'Playfair Display SC', Georgia, serif;
+  --font-body: 'Karla', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla', system-ui, sans-serif;
+  color: #1e293b;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display SC', Georgia, serif;
+}
